@@ -1,6 +1,6 @@
 # DessertSession
 
-## week 1:
+## week 1: GEN AI
   - Day 1: Introduction to Prompt Engineering and Effective Prompting
   - Day 2: Learn Anything with AI
   - Day 3: Learning web blocks with AI

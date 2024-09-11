@@ -1,12 +1,10 @@
-
+##### GenAI-D2 Learn Anything with AI
 
 | Assignment Number | Name                                      | Template Id          | Remarks (if any) | Instructions (if any) |
 |-------------------|-------------------------------------------|-----------------------|------------------|------------------------|
-| 1                 | Learn and Solve JS Objects Using AI       | 66df0334a16c1c44af496b8b | -                | -                      |
-| 2                 | Learn and Solve JavaScript Functions using AI | 66df0594acbfd7dd18e7166c | -                | -                      |
-| 3                 | Learn and Solve Python Fundamentals Using AI | 66df0a787cc38e71afe4f352 | -                | -                      |
+| 1                 | Learn and Solve JS Objects Using AI       | 66defaf5daed8581f3c81382 |             | -                      |
+| 2                 | Learn and Solve JavaScript Functions using AI | 66df050054a33e995d5c6261 | -                | -                      |
+| 3                 | Learn and Solve Python Fundamentals Using AI | 66df09c65cb6e490f3c088cd | -                | -                      |
 
 Assess Template Url:
-1. https://assess-admin.masaischool.com/unified-assessment-template/view/66df0594acbfd7dd18e7166c
-2. https://assess-admin.masaischool.com/unified-assessment-template/view/66df0334a16c1c44af496b8b
-3. https://assess-admin.masaischool.com/unified-assessment-template/view/66df0a787cc38e71afe4f352
+1. [Learn Anything with AI](https://assess-admin.masaischool.com/unified-assessment-template/view/66e1689315b023c9b75c93ec)
