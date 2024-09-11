@@ -4,134 +4,158 @@
 
 ### Part A Session Flow Breakdown
 
-  **1. Brief Introduction**
+**1. Brief Introduction**
 
-  - **Recap of Yesterday's Prompt Engineering**
-    - Review key concepts: clarity, simplicity, context, precision, and avoiding ambiguity.
-    - Highlight examples of good and bad prompts discussed previously.
-
-  ---
-
-  **2. Continue Learning JavaScript with AI**
-
-  - **Objective:** Deepen understanding of JavaScript using AI tools, focusing on objects and functions.
-
-  - **JavaScript Objects**
-
-    - **Explanation**
-
-      - **Declaration:** Objects in JavaScript are collections of key-value pairs.
-      - **Mutability:** Objects are mutable, meaning their properties can be changed after creation.
-      - **Basic Inbuilt Functions:** Methods such as `Object.keys()`, `Object.values()`, and `Object.entries()` facilitate interaction with objects.
-
-    - **Prompts for Learning JavaScript Objects**
-
-      - **Prompt for Declaration and Access:** "Explain how to create and access properties of an object in JavaScript. Provide an example where an object represents a person with a name and age property."
-      - **Prompt for Inbuilt Functions:** "How can you use `Object.keys()`, `Object.values()`, and `Object.entries()` methods to interact with an object in JavaScript? Give examples demonstrating each method."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for Understanding Object Mutability:** "How does JavaScript handle changes to object properties? Can you provide an example where the properties of an object are updated?"
-      - **Prompt for Object Methods:** "What is the difference between accessing an object’s property and calling a method defined within the object? How does `this` keyword play a role in object methods?"
-
-  - **JavaScript Functions**
-
-    - **Explanation**
-
-      - **Declaration:** Functions are declared using the `function` keyword and can be named or anonymous.
-      - **Return Statement:** Functions use the `return` keyword to return values.
-      - **Linking and Calling Functions:** Functions can call other functions and be invoked with different arguments.
-
-    - **Prompts for Learning JavaScript Functions**
-
-      - **Prompt for Function Declaration and Call:** "How do you declare a function in JavaScript and call it? Provide an example of a function that takes two numbers and returns their sum."
-      - **Prompt for Linking Functions:** "Demonstrate how to link multiple functions together in JavaScript. Provide an example where one function calls another to compute a result."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for Function Return Values:** "What happens if a function does not have a return statement? How can you ensure that a function always returns a value?"
-      - **Prompt for Function Scope:** "How does function scope affect variable access within nested functions? Can you provide an example showing how variables are accessed across different functions?"
-
-  ---
-
-  **3. Learn Python Basics Using AI**
-
-  - **Objective:** Use AI tools to learn Python basics, including data types, loops, arrays, and functions.
-
-  - **Python Data Types**
-
-    - **Explanation**
-
-      - **Declaration:** Python supports various data types such as integers, floats, strings, and booleans.
-
-    - **Prompts for Learning Python Data Types**
-
-      - **Prompt for Data Type Declaration:** "Explain how to declare different data types in Python. Provide examples of integers, floats, strings, and booleans."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for Data Type Conversion:** "How can you convert between different data types in Python? Provide examples of converting a string to an integer and vice versa."
-      - **Prompt for Data Type Operations:** "What operations are supported for different data types in Python? How do operations on integers differ from those on floats?"
-
-  - **Python Loops**
-
-    - **Explanation**
-
-      - **For Loop:** Used to iterate over a sequence like a list or range.
-      - **While Loop:** Continues to execute as long as a condition is true.
-
-    - **Prompts for Learning Python Loops**
-
-      - **Prompt for For Loop:** "How do you use a for loop in Python to iterate over a range of numbers? Provide an example that prints numbers from 0 to 4."
-      - **Prompt for While Loop:** "Explain how a while loop works in Python. Provide an example where a while loop prints numbers from 0 to 4."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for Loop Efficiency:** "What are some common pitfalls with using loops in Python? How can you optimize loop performance?"
-      - **Prompt for Nested Loops:** "How do nested loops work in Python? Provide an example where a nested loop is used to iterate over a matrix or grid."
-
-  - **Python Arrays**
-
-    - **Explanation**
-
-      - **Lists:** Python uses lists to store multiple items in a single variable.
-
-    - **Prompts for Learning Python Arrays**
-
-      - **Prompt for Lists:** "How do you create and manipulate lists in Python? Provide an example of creating a list and accessing its elements."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for List Operations:** "What operations can you perform on lists in Python? How do you add or remove elements from a list?"
-      - **Prompt for List Comprehension:** "How can you use list comprehension to create a new list from an existing one? Provide an example that filters and transforms list elements."
-
-  - **Python Functions**
-
-    - **Explanation**
-
-      - **Declaration:** Functions are defined using the `def` keyword and can return values using the `return` keyword.
-
-    - **Prompts for Learning Python Functions**
-
-      - **Prompt for Function Declaration and Call:** "How do you define and call a function in Python? Provide an example of a function that adds two numbers."
-
-    - **Cross-Questioning Prompts**
-      - **Prompt for Function Parameters:** "What are positional and keyword parameters in Python functions? Provide examples of each type."
-      - **Prompt for Function Scope:** "How does function scope affect variable access within nested functions in Python? Provide an example illustrating variable scope."
-
-  - **Homework Assignment:**
-    - **Python Objects and Arrays**
-      - **Objective:** Research and learn about Python dictionaries (objects) and lists (arrays) using AI tools.
-      - **Instructions:** Use AI to find information, examples, and best practices related to these topics. Prepare to discuss your findings and any questions in the next session.
-
-  ---
-
-  **Closing**
-
-  - **Summary**
-    - Review key concepts learned during the session.
-    - Emphasize the importance of effective prompting for exploring and understanding programming concepts.
-  - **Encouragement**
-    - Practice crafting and refining prompts to explore new programming concepts.
-    - Use AI tools actively to support learning and problem-solving in both JavaScript and Python.
+- **Recap of Yesterday's Prompt Engineering**
+  - Review key concepts: clarity, simplicity, context, precision, and avoiding ambiguity.
+  - Highlight examples of good and bad prompts discussed previously.
 
 ---
+
+### 2. Continue Learning JavaScript with AI
+
+- **Objective:** Deepen understanding of JavaScript using AI tools, focusing on arrays, objects, and functions.
+
+- **JavaScript Arrays**
+
+  - **Explanation**
+
+    - Arrays are ordered collections of elements and are widely used for storing data.
+    - **Commonly Used Array Methods:**
+      - `push()`: Adds one or more elements to the end of an array.
+      - `pop()`: Removes the last element of an array.
+      - `shift()`: Removes the first element from an array.
+      - `unshift()`: Adds one or more elements to the beginning of an array.
+      - `map()`: Creates a new array populated with the results of calling a provided function on every element in the array.
+      - `filter()`: Creates a new array with all elements that pass the test implemented by the provided function.
+      - `reduce()`: Executes a reducer function on each element of the array, resulting in a single output value.
+
+  - **Prompts for Learning JavaScript Arrays**
+
+    - **Prompt for Basic Array Operations:** "How do you use the `push()`, `pop()`, `shift()`, and `unshift()` methods on arrays in JavaScript? Provide examples for each method."
+    - **Prompt for Array Transformation:** "Explain how `map()` and `filter()` methods work in JavaScript. Provide examples to show how each method can be used to manipulate an array."
+    - **Prompt for Array Reduction:** "How does the `reduce()` method work in JavaScript? Demonstrate with an example where an array of numbers is reduced to their total sum."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for Array Mutability:** "How does mutability affect arrays in JavaScript? If an array is passed to a function and modified, will the original array reflect the changes?"
+    - **Prompt for Array Iteration:** "What are the differences between `map()` and `forEach()` when iterating over an array? Provide examples where each is more suitable."
+
+- **JavaScript Objects**
+
+  - **Explanation**
+
+    - **Declaration:** Objects in JavaScript are collections of key-value pairs.
+    - **Mutability:** Objects are mutable, meaning their properties can be changed after creation.
+    - **Basic Inbuilt Functions:** Methods such as `Object.keys()`, `Object.values()`, and `Object.entries()` facilitate interaction with objects.
+
+  - **Prompts for Learning JavaScript Objects**
+
+    - **Prompt for Declaration and Access:** "Explain how to create and access properties of an object in JavaScript. Provide an example where an object represents a person with a name and age property."
+    - **Prompt for Inbuilt Functions:** "How can you use `Object.keys()`, `Object.values()`, and `Object.entries()` methods to interact with an object in JavaScript? Give examples demonstrating each method."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for Understanding Object Mutability:** "How does JavaScript handle changes to object properties? Can you provide an example where the properties of an object are updated?"
+    - **Prompt for Object Methods:** "What is the difference between accessing an object’s property and calling a method defined within the object? How does `this` keyword play a role in object methods?"
+
+- **JavaScript Functions**
+
+  - **Explanation**
+
+    - **Declaration:** Functions are declared using the `function` keyword and can be named or anonymous.
+    - **Return Statement:** Functions use the `return` keyword to return values.
+    - **Linking and Calling Functions:** Functions can call other functions and be invoked with different arguments.
+
+  - **Prompts for Learning JavaScript Functions**
+
+    - **Prompt for Function Declaration and Call:** "How do you declare a function in JavaScript and call it? Provide an example of a function that takes two numbers and returns their sum."
+    - **Prompt for Linking Functions:** "Demonstrate how to link multiple functions together in JavaScript. Provide an example where one function calls another to compute a result."
+
+  - **Cross-Questioning Prompts** - **Prompt for Function Return Values:** "What happens if a function does not have a return statement? How can you ensure that a function always returns a value?" - **Prompt for Function Scope:** "How does function scope affect variable access within nested functions? Can you provide an example showing how variables are accessed across different functions?"
+
 ---
+
+**3. Learn Python Basics Using AI**
+
+- **Objective:** Use AI tools to learn Python basics, including data types, loops, arrays, and functions.
+
+- **Python Data Types**
+
+  - **Explanation**
+
+    - **Declaration:** Python supports various data types such as integers, floats, strings, and booleans.
+
+  - **Prompts for Learning Python Data Types**
+
+    - **Prompt for Data Type Declaration:** "Explain how to declare different data types in Python. Provide examples of integers, floats, strings, and booleans."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for Data Type Conversion:** "How can you convert between different data types in Python? Provide examples of converting a string to an integer and vice versa."
+    - **Prompt for Data Type Operations:** "What operations are supported for different data types in Python? How do operations on integers differ from those on floats?"
+
+- **Python Loops**
+
+  - **Explanation**
+
+    - **For Loop:** Used to iterate over a sequence like a list or range.
+    - **While Loop:** Continues to execute as long as a condition is true.
+
+  - **Prompts for Learning Python Loops**
+
+    - **Prompt for For Loop:** "How do you use a for loop in Python to iterate over a range of numbers? Provide an example that prints numbers from 0 to 4."
+    - **Prompt for While Loop:** "Explain how a while loop works in Python. Provide an example where a while loop prints numbers from 0 to 4."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for Loop Efficiency:** "What are some common pitfalls with using loops in Python? How can you optimize loop performance?"
+    - **Prompt for Nested Loops:** "How do nested loops work in Python? Provide an example where a nested loop is used to iterate over a matrix or grid."
+
+- **Python Arrays**
+
+  - **Explanation**
+
+    - **Lists:** Python uses lists to store multiple items in a single variable.
+
+  - **Prompts for Learning Python Arrays**
+
+    - **Prompt for Lists:** "How do you create and manipulate lists in Python? Provide an example of creating a list and accessing its elements."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for List Operations:** "What operations can you perform on lists in Python? How do you add or remove elements from a list?"
+    - **Prompt for List Comprehension:** "How can you use list comprehension to create a new list from an existing one? Provide an example that filters and transforms list elements."
+
+- **Python Functions**
+
+  - **Explanation**
+
+    - **Declaration:** Functions are defined using the `def` keyword and can return values using the `return` keyword.
+
+  - **Prompts for Learning Python Functions**
+
+    - **Prompt for Function Declaration and Call:** "How do you define and call a function in Python? Provide an example of a function that adds two numbers."
+
+  - **Cross-Questioning Prompts**
+    - **Prompt for Function Parameters:** "What are positional and keyword parameters in Python functions? Provide examples of each type."
+    - **Prompt for Function Scope:** "How does function scope affect variable access within nested functions in Python? Provide an example illustrating variable scope."
+
+- **Homework Assignment:**
+  - **Python Objects and Arrays**
+    - **Objective:** Research and learn about Python dictionaries (objects) and lists (arrays) using AI tools.
+    - **Instructions:** Use AI to find information, examples, and best practices related to these topics. Prepare to discuss your findings and any questions in the next session.
+
+---
+
+**Closing**
+
+- **Summary**
+  - Review key concepts learned during the session.
+  - Emphasize the importance of effective prompting for exploring and understanding programming concepts.
+- **Encouragement**
+  - Practice crafting and refining prompts to explore new programming concepts.
+  - Use AI tools actively to support learning and problem-solving in both JavaScript and Python.
+
+---
+
+---
+
 ### Part B Instructor Session Content/Notes
 
 ---
