@@ -1,13 +1,5 @@
 ## Week 1 Lecture Details
 
-### Day1 Lecture: [Link](https://experience-admin.masaischool.com/lectures/detail/?id=85004)
-
-### Day2 Lecture: [Link](https://experience-admin.masaischool.com/lectures/detail/?id=85005)
-
-### Day3 Lecture: [Link](https://experience-admin.masaischool.com/lectures/detail/?id=85006)
-
-### Day4 Lecture: [Link](https://experience-admin.masaischool.com/lectures/detail/?id=85205)
-
 ## week 1: GEN AI
 
 - **Day 1**: Introduction to Prompt Engineering and Effective Prompting
@@ -26,6 +18,11 @@
   - **Assignments**: 4 questions are provided, 1st question being fill in the blanks type, where they just need to fill the blank like just html tag or just a style property. remaining assignments being Problem statement type, they need to code on OneCompiler, Template already attached along with problem statement for all.
 
 - **Day 4**: Building Basic App with AI
+
   - **Lecture Expectations**: Students are expected to learn simple events like click, change, mouse over, out (dblclick, contextmenu learn on own) using Prompts.
     No need to explain DOM tree and all, need just to mention to catch that element using `id` and just attach the relavant event/function, on trigger of that event, the function executes.
   - **Assignments**: 4 questions are provided, 1st question being fill in the blanks type, where they just need to fill the blank like the relavant event, rest all are pre loaded, remaining assignments being Problem statement type, they need to code on OneCompiler, Template already attached along with problem statement for all.
+
+  - **Day 5**: Create and Deploy Your Website Using AI
+  - **Lecture Expectations**: Students are expected to learn how to make two elemsts inline by using flex, they need to learn to build a simple single page website and deploy on the netlify
+  - **Assignment**: 1 question is provided, it deals with creating their own resume/portfolio using the Gen AI knowledge gained and deploy on the netlify.
