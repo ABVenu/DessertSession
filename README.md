@@ -7,3 +7,11 @@
 - Day 3: Learning web blocks with AI
 - Day 4: Building Basic App with AI
 - Day 5: Create and Deploy Your Website Using AI
+
+## week 2: Mathematics, Logic, and Complexity in Programming
+
+- Day 1: Basic Mathematics for Web Development
+- Day 2: Advanced Mathematics and Conversions
+- Day 3: Logical Reasoning using JavaScript
+- Day 4: Complexity Analysis in Programming
+
