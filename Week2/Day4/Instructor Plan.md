@@ -1,49 +1,78 @@
 ### Lecture Name:
-review the content once
+
 # Complexity Analysis in Programming
 
 ### Part A Session Flow Breakdown
 
-**1. Introduction to Complexity Analysis**
+---
 
-- Definition of Complexity
-- Time Complexity vs. Space Complexity
+**1. Introduction to Complexity Analysis (10 minutes)**
 
-**2. Need for Complexity Analysis**
+- **Definition of Complexity**  
+  Explain what complexity means in the context of algorithms and how it relates to resource usage (time and space).
 
-- Importance of Analyzing Complexity
-- Real-World Examples
+- **Time Complexity vs. Space Complexity**  
+  Define and differentiate between time complexity and space complexity, emphasizing how they affect algorithm performance.
 
-**3. Types of Time Complexities**
+**2. Need for Complexity Analysis (10 minutes)**
 
-- Constant Time \(O(1)\)
-- Logarithmic Time \(O(\log n)\)
-- Linear Time \(O(n)\)
-- Linearithmic Time \(O(n \log n)\)
-- Quadratic Time \(O(n^2)\)
-- Cubic Time \(O(n^3)\)
-- Exponential Time \(O(2^n)\)
+- **Importance of Analyzing Complexity**  
+  Discuss why understanding complexity is crucial for developing efficient algorithms and software.
 
-**4. Types of Space Complexities**
+- **Real-World Examples**  
+  Briefly introduce real-world examples where inefficient algorithms led to performance issues (Twitter, MySpace, Etsy).
 
-- Constant Space \(O(1)\)
-- Linear Space \(O(n)\)
-- Space Complexity in Recursive Algorithms
+**3. Types of Time Complexities (20 minutes)**
+Define constant time complexity and provide a simple code example for all
 
-**5. Practical Scenarios and Optimal Complexity**
+- **Constant Time \(O(1)\)**
 
-- Real-World Examples
-- Choosing the Optimal Algorithm
+- **Logarithmic Time \(O(\log n)\)**
 
-**6. Practical Exercises**
+- **Linear Time \(O(n)\)**
 
-- Implement and Test Algorithms
-- Analyze Time and Space Complexity
+- **Linearithmic Time \(O(n \log n)\)**
 
-**7. Q&A and Wrap-Up**
+- **Quadratic Time \(O(n^2)\)**
 
-- Review Key Concepts
-- Open Floor for Questions
+- **Cubic Time \(O(n^3)\)**
+
+- **Exponential Time \(O(2^n)\)**
+
+**4. Types of Space Complexities (10 minutes)**
+
+- **Constant Space \(O(1)\)**  
+  Define constant space complexity and provide a simple code example.
+
+- **Linear Space \(O(n)\)**  
+  Define linear space complexity and provide a code example.
+
+- **Space Complexity in Recursive Algorithms**  
+  Explain how space complexity is affected by recursion, providing a code example of a recursive algorithm.
+
+**5. Practical Scenarios and Optimal Complexity (15 minutes)**
+
+- **Real-World Examples**  
+  Discuss how different complexities affect real-world applications like databases, sorting, searching, and pathfinding.
+
+- **Choosing the Optimal Algorithm**  
+  Provide guidelines on selecting the appropriate algorithm based on the problem size and complexity.
+
+**6. Practical Exercises (20 minutes)**
+
+- **Implement Algorithms**  
+  Have students write and test algorithms with different complexities (constant, linear, quadratic, etc.).
+
+- **Analyze Time and Space Complexity**  
+  Use `console.time` to measure execution times and analyze space usage for different algorithms.
+
+**7. Q&A and Wrap-Up (15 minutes)**
+
+- **Review Key Concepts**  
+  Summarize the key points covered in the session, including types of complexities and their practical implications.
+
+- **Open Floor for Questions**  
+  Address any questions or clarifications needed by the students.
 
 ---
 
@@ -120,16 +149,14 @@ review the content once
 - **Logarithmic Time \(O(\log n)\):**
 
   ```javascript
-  function binarySearch(arr, target) {
-    let left = 0;
-    let right = arr.length - 1;
-    while (left <= right) {
-      let mid = Math.floor((left + right) / 2);
-      if (arr[mid] === target) return mid;
-      if (arr[mid] < target) left = mid + 1;
-      else right = mid - 1;
+  function linearTC(arr, target) {
+    let count = 0;
+
+    for (let i = 1000; i >= 1; i = i / 2) {
+      count++;
     }
-    return -1;
+
+    console.log(count);
   }
   ```
 
@@ -144,38 +171,13 @@ review the content once
   }
   ```
 
-- **Linearithmic Time \(O(n \log n)\):**
-
-  ```javascript
-  function mergeSort(arr) {
-    if (arr.length <= 1) return arr;
-    const mid = Math.floor(arr.length / 2);
-    const left = mergeSort(arr.slice(0, mid));
-    const right = mergeSort(arr.slice(mid));
-    return merge(left, right);
-  }
-
-  function merge(left, right) {
-    let result = [];
-    let i = 0,
-      j = 0;
-    while (i < left.length && j < right.length) {
-      if (left[i] < right[j]) result.push(left[i++]);
-      else result.push(right[j++]);
-    }
-    return result.concat(left.slice(i)).concat(right.slice(j));
-  }
-  ```
-
 - **Quadratic Time \(O(n^2)\):**
 
   ```javascript
   function bubbleSort(arr) {
     for (let i = 0; i < arr.length; i++) {
       for (let j = 0; j < arr.length - i - 1; j++) {
-        if (arr[j] > arr[j + 1]) {
-          [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-        }
+        // Some operation
       }
     }
     return arr;
@@ -198,12 +200,32 @@ review the content once
   ```
 
 - **Exponential Time \(O(2^n)\):**
-  ```javascript
-  function fibonacci(n) {
-    if (n <= 1) return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
-  }
-  ```
+
+  ````javascript
+      function fibonacci(n) {
+        if (n <= 1) return n;
+        return fibonacci(n - 1) + fibonacci(n - 2);
+      }
+
+      let count = 0;
+      function fibonacci(n) {
+        // console.log(`Calling fibonacci(${n})`); // Log the current call
+        if (n <= 1) {
+          count++;
+          console.log(count);
+          return n; // Base case: fibonacci(0) = 0, fibonacci(1) = 1
+        }
+
+        const result = fibonacci(n - 1) + fibonacci(n - 2); // Recursive case
+        count++;
+        console.log(count);
+        return result;
+      }
+
+      // Testing the function
+      console.log(`Result: fibonacci(5) = ${fibonacci(5)}`); // Outputs: 5
+      ```
+  ````
 
 #### **Practical Scenarios and Optimal Complexity**
 
@@ -216,5 +238,19 @@ review the content once
 - **Implement Algorithms:** Write and test different sorting and searching algorithms.
 - **Measure Performance:** Use `console.time` to measure execution times.
 - **Analyze Space Complexity:** Observe memory usage for different algorithms.
+
+---
+
+Here are the updated notes aligned with the session flow:
+
+---
+
+#### **Q&A and Wrap-Up**
+
+- **Review Key Concepts:**  
+  Summarize the types of time and space complexities, their definitions, and practical implications.
+
+- **Open Floor for Questions:**  
+  Address any questions or clarifications needed by the students regarding complexity analysis and its real-world impact.
 
 ---

@@ -1,174 +1,217 @@
 ### Student Notes:
 
+---
+
 # Complexity Analysis in Programming
 
-#### **Introduction to Complexity Analysis**
+#### **1. Introduction to Complexity Analysis**
 
-- **Complexity:** Refers to how an algorithm's resource usage (time or space) grows with the size of the input.
-  - **Time Complexity:** How the runtime of an algorithm changes as the input size increases.
-  - **Space Complexity:** How the memory usage of an algorithm changes as the input size increases.
+- **Complexity:** This refers to how an algorithm's resource usage (time or space) changes as the input size grows.
+  - **Time Complexity:** Indicates how the execution time of an algorithm increases with input size.
+  - **Space Complexity:** Indicates how the memory usage of an algorithm changes with input size.
 
-#### **Types of Time Complexities**
+#### **2. Need for Complexity Analysis**
 
-1. **Constant Time \(O(1)\):**
+- **Importance:** Analyzing complexity helps ensure that algorithms perform efficiently as data sizes grow. Inefficient algorithms can lead to slow performance and high resource usage.
+- **Real-World Examples:**
+  - **Twitter:** Slow performance with high user counts due to inefficient algorithms.
+  - **MySpace:** Performance issues as the platform scaled up.
+  - **Etsy:** Search functionality became slow under heavy load.
 
-   - **Definition:** The runtime is constant and does not depend on the input size.
-   - **Example:** Accessing an element in an array.
+#### **3. Types of Time Complexities**
 
-   ```javascript
-   function getElement(arr, index) {
-     return arr[index]; // O(1)
-   }
-   ```
+- **Constant Time \(O(1)\):**
 
-2. **Logarithmic Time \(O(\log n)\):**
+  - **Definition:** The runtime is the same regardless of input size.
+  - **Example:**
 
-   - **Definition:** The runtime grows logarithmically with the input size.
-   - **Example:** Binary search in a sorted array.
+    ```javascript
+    function getElement(arr, index) {
+      return arr[index]; // O(1) operation
+    }
+    ```
 
-   ```javascript
-   function binarySearch(arr, target) {
-     let left = 0;
-     let right = arr.length - 1;
-     while (left <= right) {
-       let mid = Math.floor((left + right) / 2);
-       if (arr[mid] === target) return mid;
-       if (arr[mid] < target) left = mid + 1;
-       else right = mid - 1;
-     }
-     return -1;
-   }
-   ```
+- **Logarithmic Time \(O(\log n)\):**
 
-3. **Linear Time \(O(n)\):**
+  - **Definition:** Runtime increases logarithmically as input size grows.
+  - **Example:**
 
-   - **Definition:** The runtime grows linearly with the input size.
-   - **Example:** Linear search through an unsorted array.
+    ```javascript
+    function reduceArray(arr) {
+      let result = 0;
+      for (let i = arr.length; i > 0; i = Math.floor(i / 10)) {
+        result += arr[i - 1];
+      }
+      return result;
+    }
+    ```
 
-   ```javascript
-   function linearSearch(arr, target) {
-     for (let i = 0; i < arr.length; i++) {
-       if (arr[i] === target) return i;
-     }
-     return -1;
-   }
-   ```
+- **Linear Time \(O(n)\):**
 
-4. **Linearithmic Time \(O(n \log n)\):**
+  - **Definition:** Runtime increases linearly with input size.
+  - **Example:**
 
-   - **Definition:** The runtime grows in proportion to \(n \log n\).
-   - **Example:** Merge sort algorithm.
+    ```javascript
+    function linearSearch(arr, target) {
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) return i;
+      }
+      return -1;
+    }
+    ```
 
-   ```javascript
-   function mergeSort(arr) {
-     if (arr.length <= 1) return arr;
-     const mid = Math.floor(arr.length / 2);
-     const left = mergeSort(arr.slice(0, mid));
-     const right = mergeSort(arr.slice(mid));
-     return merge(left, right);
-   }
+- **Linearithmic Time \(O(n \log n)\):**
 
-   function merge(left, right) {
-     let result = [];
-     let i = 0,
-       j = 0;
-     while (i < left.length && j < right.length) {
-       if (left[i] < right[j]) result.push(left[i++]);
-       else result.push(right[j++]);
-     }
-     return result.concat(left.slice(i)).concat(right.slice(j));
-   }
-   ```
+  - **Definition:** Runtime grows in proportion to \(n \log n\).
+  - **Example:**
 
-5. **Quadratic Time \(O(n^2)\):**
+    ```javascript
+    function mergeSort(arr) {
+      if (arr.length <= 1) return arr;
+      const mid = Math.floor(arr.length / 2);
+      const left = mergeSort(arr.slice(0, mid));
+      const right = mergeSort(arr.slice(mid));
+      return merge(left, right);
+    }
 
-   - **Definition:** The runtime grows quadratically with the input size.
-   - **Example:** Bubble sort algorithm.
+    function merge(left, right) {
+      let result = [];
+      let i = 0,
+        j = 0;
+      while (i < left.length && j < right.length) {
+        if (left[i] < right[j]) result.push(left[i++]);
+        else result.push(right[j++]);
+      }
+      return result.concat(left.slice(i)).concat(right.slice(j));
+    }
+    ```
 
-   ```javascript
-   function bubbleSort(arr) {
-     for (let i = 0; i < arr.length; i++) {
-       for (let j = 0; j < arr.length - i - 1; j++) {
-         if (arr[j] > arr[j + 1]) {
-           [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
-         }
-       }
-     }
-     return arr;
-   }
-   ```
+- **Quadratic Time \(O(n^2)\):**
 
-6. **Cubic Time \(O(n^3)\):**
+  - **Definition:** Runtime grows quadratically with input size.
+  - **Example:**
 
-   - **Definition:** The runtime grows cubically with the input size.
-   - **Example:** Algorithm with three nested loops.
+    ```javascript
+    function bubbleSort(arr) {
+      for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length - i - 1; j++) {
+          if (arr[j] > arr[j + 1]) {
+            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+          }
+        }
+      }
+      return arr;
+    }
+    ```
 
-   ```javascript
-   function cubicExample(arr) {
-     let n = arr.length;
-     for (let i = 0; i < n; i++) {
-       for (let j = 0; j < n; j++) {
-         for (let k = 0; k < n; k++) {
-           // Some operation
-         }
-       }
-     }
-   }
-   ```
+- **Cubic Time \(O(n^3)\):**
 
-7. **Exponential Time \(O(2^n)\):**
-   - **Definition:** The runtime grows exponentially with the input size.
-   - **Example:** Recursive Fibonacci calculation.
-   ```javascript
-   function fibonacci(n) {
-     if (n <= 1) return n;
-     return fibonacci(n - 1) + fibonacci(n - 2);
-   }
-   ```
+  - **Definition:** Runtime grows cubically with input size.
+  - **Example:**
 
-#### **Types of Space Complexities**
+    ```javascript
+    function cubicExample(arr) {
+      let n = arr.length;
+      for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n; j++) {
+          for (let k = 0; k < n; k++) {
+            // Some operation
+          }
+        }
+      }
+    }
+    ```
 
-1. **Constant Space \(O(1)\):**
+- **Exponential Time \(O(2^n)\):**
 
-   - **Definition:** The space usage is constant and does not depend on the input size.
-   - **Example:** Storing simple variables.
+  - **Definition:** Runtime grows exponentially with input size.
+  - **Examples:**
 
-   ```javascript
-   function constantSpaceExample() {
-     let a = 5; // O(1)
-   }
-   ```
+    - **Recursive Fibonacci:**
 
-2. **Linear Space \(O(n)\):**
+      ```javascript
+      function fibonacci(n) {
+        if (n <= 1) return n;
+        return fibonacci(n - 1) + fibonacci(n - 2);
+      }
 
-   - **Definition:** The space usage grows linearly with the input size.
-   - **Example:** Storing elements in an array.
+      let count = 0;
+      function fibonacci(n) {
+        // console.log(`Calling fibonacci(${n})`); // Log the current call
+        if (n <= 1) {
+          count++;
+          console.log(count);
+          return n; // Base case: fibonacci(0) = 0, fibonacci(1) = 1
+        }
 
-   ```javascript
-   function linearSpaceExample(arr) {
-     let result = [];
-     for (let i = 0; i < arr.length; i++) {
-       result.push(arr[i] * 2);
-     }
-     return result;
-   }
-   ```
+        const result = fibonacci(n - 1) + fibonacci(n - 2); // Recursive case
+        count++;
+        console.log(count);
+        return result;
+      }
 
-3. **Space Complexity in Recursive Algorithms:**
-   - **Definition:** Additional space is required for the function call stack.
-   - **Example:** Recursive implementation of Fibonacci.
-   ```javascript
-   function recursiveExample(n) {
-     if (n <= 1) return n;
-     return recursiveExample(n - 1) + recursiveExample(n - 2);
-   }
-   // Recursive call stack adds to space complexity.
-   ```
+      // Testing the function
+      console.log(`Result: fibonacci(5) = ${fibonacci(5)}`); // Outputs: 5
+      ```
 
-#### **Practical Scenarios**
+#### **4. Types of Space Complexities**
 
-- **Database Queries:** Efficient algorithms ensure faster data retrieval and manipulation.
-- **Sorting Algorithms:** Choosing the right sorting algorithm based on data size can significantly affect performance.
-- **Graph Algorithms:** Efficient pathfinding algorithms, like Dijkstra’s, are crucial for large networks and maps.
+- **Constant Space \(O(1)\):**
+
+  - **Definition:** Space usage does not depend on input size.
+  - **Example:**
+
+    ```javascript
+    function constantSpaceExample(n) {
+      let result = 0; // O(1) space usage
+      for (let i = 0; i < n; i++) {
+        result += i;
+      }
+      return result;
+    }
+    ```
+
+- **Linear Space \(O(n)\):**
+
+  - **Definition:** Space usage grows linearly with input size.
+  - **Example:**
+
+    ```javascript
+    function linearSpaceExample(arr) {
+      let result = [];
+      for (let i = 0; i < arr.length; i++) {
+        result.push(arr[i]); // O(n) space usage
+      }
+      return result;
+    }
+    ```
+
+- **Space Complexity in Recursive Algorithms:**
+
+  - **Definition:** Additional space for function call stack.
+  - **Example:**
+
+    ```javascript
+    function recursiveFactorial(n) {
+      if (n <= 1) return 1;
+      return n * recursiveFactorial(n - 1); // O(n) stack space
+    }
+    ```
+
+#### **5. Practical Scenarios and Optimal Complexity**
+
+- **Database Queries:** Efficient algorithms ensure fast data retrieval. For example, use \(O(\log n)\) or \(O(n \log n)\) algorithms to handle large datasets efficiently.
+
+- **Sorting and Searching:** For large datasets, use algorithms with lower time complexities like \(O(n \log n)\) (e.g., merge sort) rather than \(O(n^2)\) (e.g., bubble sort) to improve performance.
+
+- **Pathfinding:** Use efficient algorithms like Dijkstra’s for large graphs to ensure quick pathfinding and avoid performance issues.
+
+#### **6. Practical Exercises**
+
+- **Implement Algorithms:** Practice writing and testing algorithms with different complexities to understand their performance.
+
+- **Measure Performance:** Use `console.time` to measure how long different algorithms take to execute.
+
+- **Analyze Space Complexity:** Observe and compare the memory usage of different algorithms to understand their space requirements.
 
 ---
