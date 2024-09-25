@@ -4,11 +4,6 @@
 
 ---
 
-# **Student Notes for Day 2: UX Basics**
-
-### **Session Overview**
-
-- **Duration:** 1.5 hours
 - **Objective:** To understand the fundamentals of User Experience (UX) design, including user flows, design psychology, and sources of design inspiration.
 
 ---
@@ -152,5 +147,3 @@
 - **Behance:** [Behance](https://www.behance.net) - A platform for creative professionals to showcase and discover creative work.
 
 ---
-
-
