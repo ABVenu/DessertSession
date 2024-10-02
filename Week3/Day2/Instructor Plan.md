@@ -7,7 +7,7 @@
 **Objective:**  
 To understand the fundamental principles of User Experience (UX) design, learn how to create user flows, explore design psychology, and discover resources for design inspiration.
 
-### **1. Introduction to UX **
+### **1. Introduction to UX**
 
 - **Objective:** Understand what UX design is and its importance in product development.
 - **Content:**
@@ -21,7 +21,7 @@ To understand the fundamental principles of User Experience (UX) design, learn h
 
 ---
 
-### **2. Importance of UX **
+### **2. Importance of UX**
 
 - **Objective:** Highlight the value of UX design in creating successful products.
 - **Content:**
@@ -36,7 +36,7 @@ To understand the fundamental principles of User Experience (UX) design, learn h
 
 ---
 
-### **3. User Flow Creation **
+### **3. User Flow Creation**
 
 - **Objective:** Learn how to create user flows to map out the user journey.
 
@@ -52,7 +52,7 @@ To understand the fundamental principles of User Experience (UX) design, learn h
 
 ---
 
-### **4. Design Psychology **
+### **4. Design Psychology**
 
 - **Objective:** Understand how psychology affects user interactions with designs.
 
@@ -64,7 +64,7 @@ To understand the fundamental principles of User Experience (UX) design, learn h
 
 ---
 
-### **5. How to Take Design Inspiration **
+### **5. How to Take Design Inspiration**
 
 - **Objective:** Discover resources for design inspiration.
 
@@ -76,7 +76,7 @@ To understand the fundamental principles of User Experience (UX) design, learn h
 
 ---
 
-### **6. Wrap-up and Q&A **
+### **6. Wrap-up and Q&A**
 
 - **Objective:** Review key takeaways from the session and address remaining questions.
 - **Content:**

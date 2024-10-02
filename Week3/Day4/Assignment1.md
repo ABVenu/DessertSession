@@ -1,4 +1,19 @@
+# Creating an Entire Page Using Figma
 
+#### Submission Guidelines
+
+**work all the questions in a single figma file and submit the link directly, or else take the screenshots of all the questions, upload to the drive, paste the screenshot links in a google doc, submit that link, Please take care all the links should be visible to anyone**
+
+**Instructions for Each Question**:
+
+- Use **Figma** as the primary tool for all assignments.
+- Ensure all elements are neatly aligned and follow consistent spacing rules.
+- Make use of the **color contrast** tool from [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure your text and background colors meet accessibility standards.
+- Explore **Google Fonts** to use appropriate fonts for text elements.
+
+**Submission**:
+
+- After completing your designs, export each as PNG or share a Figma link with the instructor for review.
 
 ### **Assignment Questions**
 
@@ -23,4 +38,3 @@
    **Tools Needed**: Figma
 
 ---
-

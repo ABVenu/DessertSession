@@ -1,6 +1,8 @@
-#
+# UX Basics
 
 #### Submission Guidelines
+
+**Wherever answers to be typed, please type all the answers in a google doc name it as Day2Answer, wherever screenshot to be taken, Please take the screenshot, upload the screenhot in the drive and paste in the same Day2Answer file, if sharing links are there (canva or others) directly paste that link instaed of screenshot,please take care sharing should be on, submit the Day2Answer Doc Link**
 
 ---
 

@@ -15,3 +15,9 @@
 - Day 3: Logical Reasoning using JavaScript
 - Day 4: Complexity Analysis in Programming
 
+## week 3: Basics of UI/UX Design
+
+- Day 1: Basics of UI Design 
+- Day 2: Basics of UX 
+- Day 3: Figma Basics
+- Day 4: Creating an Entire Page Using Figma
