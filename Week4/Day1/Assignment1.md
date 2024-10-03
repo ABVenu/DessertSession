@@ -1,171 +1,124 @@
 # Introduction to Project Management
 
-#### Submission Guidelines
+**Submission Instructions**: These assignments should work on Trello or Google Docs, Sheets, so paste all the links in a single sheet and share that sheet link, **Ensure each and every Links are Visibile to All**.
 
-**Wherever answers to be typed, please type all the answers in a google doc name it as Day1Answer, wherever screenshot to be taken, Please take the screenshot, upload the screenhot in the drive, finally create a master doc called MasterDay1, paste all the screenshot links, Day1Answer google doc link and submit the doc link, please take care sharing should be on**
-
-### Day 1 Student Notes:
+**Note**: These assignments are implementation-based, focusing on creating project plans, using tools to manage tasks, and ensuring hands-on experience with project management concepts, you are open to use AI, or research by refering any resources
 
 ---
 
-#### **1. What is Project Management?**
+#### **1: Create a Project Plan for a Personal Website**
 
-**Definition**:  
-Project management is the process of planning, organizing, and executing tasks to achieve specific goals within a set time frame. It helps keep everything on track, whether you're creating a website, organizing an event, or building a product.
-
-**Why is Project Management Important?**:
-
-- It keeps everyone organized and makes sure each person knows what they are supposed to do.
-- It helps use **resources effectively**, like time, money, or skills.
-- It provides **clear direction** and avoids confusion about who is responsible for what.
-
-**Examples**:
-
-- **Building a Website**: To create a website, you need to design it, write content, and code it. Without proper planning, it’s easy to get confused about responsibilities and deadlines.
-- **Non-Software Project**: Imagine planning a party. You have to pick a location, arrange food, send invites, etc. Without a plan, things can get disorganized.
+- Imagine you are creating your own personal website that includes pages like "Home," "About Me," and "Projects."
+- **Tasks**:
+  1. Define the **scope** of the project—What features will the website have?
+  2. Break the project into **smaller tasks** (e.g., "Design Home Page," "Write About Me Section").
+  3. Set at least 3 **milestones** to track the progress of your project.
+  4. Write down the **deadlines** for each task.
+- **Tools to Use**:
+  - **Google Docs**: Write your project scope, tasks, milestones, and deadlines.
+  - **Google Sheets**: Create a simple Gantt chart to track your timeline visually.
 
 ---
 
-#### **2. Phases of Project Management**
+#### **2: Design a Project Plan for a Simple Blog Website**
 
-There are **five key phases** that help guide a project from start to finish. Let's break these down:
-
-1. **Initiation**:
-
-   - This is where the project starts.
-   - You define what the project is all about—what is the **purpose**?
-   - Example: If you're building a website, the purpose might be to give information about a product or service.
-   - It’s important to define a **scope**, which means figuring out what will be included in the project and what won’t be.
-
-2. **Planning**:
-
-   - This phase is all about **breaking down tasks** and deciding how to do the project.
-   - Example: For a website, you might plan tasks like designing pages, writing content, coding, and testing.
-   - **Tools** can help you visualize the tasks. For example, tools like **Trello** or **Notion** allow you to create cards for each task and track them.
-
-3. **Execution**:
-
-   - This is when the **actual work** gets done.
-   - You need to make sure that everyone knows their tasks and deadlines.
-   - Good communication is essential so that everyone knows what progress is being made and any challenges faced.
-
-4. **Monitoring**:
-
-   - While working on the project, you must make sure things are progressing **as planned**.
-   - You need to **track progress** using checklists or progress reports.
-   - Example: If a webpage was supposed to be done by Friday, check to see if it’s actually done and what might be causing delays if it’s not.
-
-5. **Closing**:
-   - This phase is about completing the project.
-   - It includes collecting feedback, reviewing how things went, and celebrating the completion.
-   - It’s important to think about what went well and what could be improved for next time.
-
-**Example Project**:  
-Think about a simple project like building a portfolio website.
-
-- **Initiation**: What will be on the website? Pages like "Home," "About Me," "Projects," and "Contact."
-- **Planning**: Break down tasks—design layout, write the "About Me" content, add images.
-- **Execution**: You start working on these tasks.
-- **Monitoring**: You check to see if each page is being completed on time.
-- **Closing**: Review and make sure everything looks good and works properly.
+- Imagine you’re planning to create a blog website.
+- **Tasks**:
+  1. List out the **features** the blog should have (e.g., blog posts, categories, contact form).
+  2. Create a **task breakdown** for each feature (e.g., "Create Categories," "Design Blog Layout").
+  3. Create a **timeline** for each task and set **milestones** to check progress.
+- **Tools to Use**:
+  - **Trello**: Create a board with columns for each feature and add cards to represent different tasks.
+  - **Google Docs**: Document the list of features, stakeholders, and milestones.
 
 ---
 
-#### **3. Key Concepts in Project Management**
+#### **3: Break Down a Project for a Small E-commerce Website**
 
-**Scope**:
-
-- Scope defines **what work needs to be done**.
-- It’s crucial to understand what’s **included** in the project and what is **not**.
-- Example: For a website, including a blog might be part of the scope, but creating a full-fledged e-commerce system might not be.
-
-**Time**:
-
-- Every project has **deadlines** and a **schedule**.
-- **Milestones** are small checkpoints that show progress. They help keep the project on track.
-- Example: The deadline to complete the homepage might be "by the end of Week 1."
-
-**Cost**:
-
-- Cost includes all expenses, like tools, hiring people, and purchasing resources.
-- Example: Hiring a graphic designer might be part of the project cost.
-
-**Quality**:
-
-- Quality ensures that the end product meets certain standards.
-- Example: A website should look good on all devices—whether it's a mobile phone, a tablet, or a desktop.
-
-**Stakeholders**:
-
-- **Stakeholders** are people who are affected by or have an interest in the project.
-- Example: If you are creating a website for a school, the stakeholders could include students, teachers, and parents.
+- Imagine you are planning an online store with features like product listings, a cart, and a checkout page.
+- **Tasks**:
+  1. Define the **scope**—What features will the store have? (Product listings, cart functionality, payment options, etc.)
+  2. Break down the project into **smaller tasks** (e.g., "Set up product listings page," "Design the cart page").
+  3. Set at least **3 milestones** for the project (e.g., "Complete product listings by Day 3").
+  4. Identify **quality requirements**—What would a successful e-commerce site look like? (User-friendly design, mobile compatibility, etc.)
+- **Tools to Use**:
+  - **Google Docs**: Write the scope and milestones of the project.
+  - **Trello**: Organize tasks by creating cards for each one and using columns to manage the progress.
 
 ---
 
-#### **4. Real-Life Scenario Walkthrough**
+#### **4: Use Trello for Task Organization**
 
-To understand how these phases and concepts work together, let’s look at a simple scenario:
-
-**Example Project**: **Building a Website for a Bakery**
-
-- **Initiation**: What’s the purpose? To help people know about the bakery, view products, and get contact information.
-- **Planning**: Define tasks—Create "About Us" page, add a product gallery, and build a contact form.
-- **Execution**: Assign tasks—One person designs the layout, another writes the content, and another codes it.
-- **Monitoring**: Use a checklist—Is the "About Us" page complete? Are product images added?
-- **Closing**: Test the website to make sure everything is working correctly.
+- Create a Trello board for a simple project, such as making a **family recipe book**.
+- **Tasks**:
+  1. Create **columns** for "To Do," "In Progress," and "Done."
+  2. Add **cards** for each task (e.g., "Collect recipes," "Design cover page," "Write introduction").
+  3. Move cards between columns as you work through the tasks.
+- **Tools to Use**:
+  - **Trello**: Organize the recipe book project by creating cards and moving them through different stages.
 
 ---
 
-#### **5. Project Planning Basics**
+#### **5: Identify Stakeholders and Resources for a Project**
 
-**Breaking Down a Project**:
-
-- Any big project can be broken down into smaller, more manageable tasks.
-- Example: Instead of thinking about the whole website, break it down into individual parts like the **Home Page**, **About Page**, and **Contact Form**.
-
-**Milestones and Deadlines**:
-
-- **Milestones** are small goals that help track how well the project is progressing.
-- Example: One milestone might be to complete the homepage by "Day 3."
-
-**Tools for Project Planning**:
-
-- Tools like **Trello** help organize tasks visually.
-- You can create **cards** for each task (like "Design Home Page") and move them from **"To Do"** to **"In Progress"** to **"Done"**.
+- Imagine you are building a **library website**.
+- **Tasks**:
+  1. Write down the **stakeholders**—Who are the people who will benefit from or be affected by the website?
+  2. Identify the **resources** you will need (e.g., hosting services, content for books, images).
+  3. Create a **plan** for how these resources will be used effectively.
+- **Tools to Use**:
+  - **Google Docs**: Write a document listing stakeholders, resources, and how you plan to use them.
 
 ---
 
-#### **6. Group Activity: Project Plan Creation**
+#### **6: Identify Scope Creep in a Project**
 
-**Activity**:
-
-- You worked in a group to create a basic project plan for building a website.
-- You defined the **scope**—what the website would have.
-- You **broke down the project into smaller tasks**.
-- You also set a few **milestones** to help keep everything on track.
-
-**Things to Remember**:
-
-- Every project is easier to manage when broken down into smaller steps.
-- Communicating effectively within the team helps get things done smoothly.
-- Using simple tools like Trello makes organizing tasks much easier.
+- Imagine that you’re creating a website for a bakery, and someone suggests adding a **shopping cart feature** to allow online orders.
+- **Tasks**:
+  1. Write down what was initially in the **scope**.
+  2. Explain whether adding the shopping cart feature is within or outside the scope.
+  3. Describe how **scope creep** might affect the timeline and cost of the project.
+- **Tools to Use**:
+  - **Google Docs**: Document the original scope, scope changes, and potential impacts of scope creep.
 
 ---
 
-#### **7. Closing Remarks and Next Steps**
+#### **7: Create a Milestone-Based Timeline for a Small Project**
 
-**Key Takeaways**:
-
-- **Project Management** helps to organize tasks and make sure things are done on time and with good quality.
-- The **five phases** of a project—Initiation, Planning, Execution, Monitoring, and Closing—guide a project from start to finish.
-- Concepts like **scope**, **time**, and **stakeholders** are key to understanding what a project involves and who it affects.
-- **Tools** like Trello can make managing tasks simple and visual.
-
-**Next Steps**:
-
-- Tomorrow, we’ll learn about **Agile** and **Scrum**—which are ways of managing projects that are especially useful in software development.
-- We’ll also learn about **GitHub**, a tool that helps with **collaboration** and **version control** when multiple people work on the same project.
+- Plan a small project like **making a class presentation**.
+- **Tasks**:
+  1. Write down the **tasks** you need to complete (e.g., "Research topic," "Create slides," "Practice presentation").
+  2. Set **milestones**—What needs to be done by when?
+  3. Create a simple timeline on paper or digitally to visualize the milestones.
+- **Tools to Use**:
+  - **Google Sheets**: Create a timeline for the milestones and tasks.
+  - **Trello**: Create a board to move tasks through different columns (To Do, In Progress, Completed).
 
 ---
 
-These notes provide a foundation in understanding project management. Don’t worry if some concepts still seem unclear—practice will make things easier, and we’ll continue to build on these ideas as we move forward.
+#### **8: Implement a Trello Board for Your Personal Project**
+
+- Choose a personal project, such as **learning a new skill**, and manage it using Trello.
+- **Tasks**:
+  1. Create a Trello board and add **columns** for "To Do," "In Progress," and "Completed."
+  2. Break down the tasks needed to complete your personal project into **cards** and add them to the Trello board.
+  3. Move the cards to the "Completed" column as you finish each task.
+  4. Write a short **reflection** in Google Docs on how organizing your tasks helped you.
+- **Tools to Use**:
+  - **Trello**: Create and manage the board for your project.
+  - **Google Docs**: Reflect on how Trello helped organize your project.
+
+---
+
+#### **9: Implement a Simple Task Management System in Google Sheets**
+
+- Create a **task management system** for a project like organizing a small event.
+- **Tasks**:
+  1. List all **tasks** you need to do for the event in a Google Sheet.
+  2. Create columns for **Task Description**, **Status** (To Do, In Progress, Done), **Assigned To**, and **Deadline**.
+  3. **Update** the status of each task as you progress through them.
+  4. Add a simple **color-coding system** to visualize task progress.
+- **Tools to Use**:
+  - **Google Sheets**: Create and maintain the task management system.
+
+---

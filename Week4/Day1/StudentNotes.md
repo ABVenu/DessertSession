@@ -157,9 +157,4 @@ To understand how these phases and concepts work together, let’s look at a sim
 - Concepts like **scope**, **time**, and **stakeholders** are key to understanding what a project involves and who it affects.
 - **Tools** like Trello can make managing tasks simple and visual.
 
-**Next Steps**:
-
-- Tomorrow, we’ll learn about **Agile** and **Scrum**—which are ways of managing projects that are especially useful in software development.
-- We’ll also learn about **GitHub**, a tool that helps with **collaboration** and **version control** when multiple people work on the same project.
-
 ---
