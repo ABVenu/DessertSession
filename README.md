@@ -21,3 +21,10 @@
 - Day 2: Basics of UX 
 - Day 3: Figma Basics
 - Day 4: Creating an Entire Page Using Figma
+
+## week 4: Version Control, Code Collaboration & Project Management
+
+- Day 1: Introduction to Project Management
+- Day 2: Version Control and Git Basics
+- Day 3: GitHub Repository and Collaboration
+- Day 4: Project Management in GitHub
